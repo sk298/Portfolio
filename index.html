@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio_SK</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/tCT9cWh1/SK-copy.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="https://i.postimg.cc/NfMBtCbN/My-Pic.png" alt="avatar" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Sivaraja Krishan">Sivaraja Krishan</h1>
+                    <center><p class="title">Aspiring Software Engineer <br>Front end Developer<br>UI/UX Designer <br>Graphic Designer with a Creative Vision </p></center>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:skkrishan08@gmail.com" class="contact-link">skkrishan08@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+94 753797498" class="contact-link">+94 75 379 7498</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="2003-12-26">December 26, 2003</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>No 110, Eliston New Coloney, Puwakpitiya, Avissawella.
+                            </address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="https://www.linkedin.com/in/sk-krishan-303601266" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://github.com/sk298" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://wa.me/qr/47O4K7BIBW74F1" class="social-link"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://www.instagram.com/skkrishan10?igsh=YnpoMWYxMnp3em04" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li class="social-item"><a href="https://x.com/skkrishan08?s=09" class="social-link"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 4l11.733 16H20L8.267 4zm0 16l6.768-6.768m2.46-2.46L20 4"/></svg></a></li>
+                    <li class="social-item"><a href="https://www.threads.com/@skkrishan10" class="social-link"><svg  xmlns="http://www.w3.org/2000/svg"  width="20"  height="20"  viewBox="0 0 18 22"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-threads"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19 7.5c-1.333 -3 -3.667 -4.5 -7 -4.5c-5 0 -8 2.5 -8 9s3.5 9 8 9s7 -3 7 -5s-1 -5 -7 -5c-2.5 0 -3 1.25 -3 2.5c0 1.5 1 2.5 2.5 2.5c2.5 0 3.5 -1.5 3.5 -5s-2 -4 -3 -4s-1.833 .333 -2.5 1" /></svg>
+</a></li>
+                    
+
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <!-- Update your navbar links like this -->
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link active" data-nav-link="about">About</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link="profile">Profile</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link="projects">Projects</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link="blog">Blog</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link="contact">Contact</button>
+                    </li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>I am passionate about creating clean, user-centered software Solutions and intuitive interfaces. With a strong interest in software engineering and UI/UX design,
+                         I aim to apply my skills in real-world environments. I’m eager to grow professionally, solve meaningful problems, and contribute to innovative digital solutions 
+                         that enhance user experience.
+                    </p>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm doing</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/Fs8wCLCW/Logo-Brand-Identity-Design.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Logo & Brand Identity Design <br> (Full Kits)</h4>
+                                <p class="service-item-text">Crafting distinctive logos and comprehensive brand identity kits that elevate your brand with professional precision.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item"> 
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/L5hjrhQv/Social-Media-Graphics.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Social Media Graphics <br>(Banners, Posts, Stories)</h4>
+                                <p class="service-item-text">Designing engaging social media graphics—banners, posts, and stories—that capture attention and drive engagement.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/661rCLTP/Illustration-Digital-Art.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Illustration & Digital Art</h4>
+                                <p class="service-item-text">Creating original illustration and digital art that brings ideas to life with style and impact.</p>
+                            </div>
+                        </li>
+                
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/SNBcvS67/Web-Site-Design-Develop.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web Site Design & Develop </h4>
+                                <p class="service-item-text">The most modern and high-quality design made at a professional level.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/d3XGvvzF/Mobile-Desktop-apps.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Mobile & Desktop apps</h4>
+                                <p class="service-item-text">Professional development of applications for Android, IOS & Desktops.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/gJgvS3sn/Front-End-development.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Front End development</h4>
+                                <p class="service-item-text">High-quality look of sites at the professional level.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/9fVZcLND/Back-End-Development.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Back End Development</h4>
+                                <p class="service-item-text">High-quality look of sites at the professional level.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/DyJq6JXw/UI-Frame-Works.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">UI Frame Works</h4>
+                                <p class="service-item-text">I make high-quality Designs For any category requirements at a professional level.</p>
+                            </div>
+                        </li>
+                        <ul class="service-list">                    
+                            <div class="hero-buttons">
+                            <li>
+                                <a href="#contact" class="btn btn-primary"data-nav-link="contact"><i class="fas fa-handshake"></i> Hire Me</a>
+                            </div>
+                            </li>                            
+                        
+                        
+                            <li>
+                                <div class="hero-buttons">
+                                <a href="resume.pdf" download class="btn btn-secondary"><i class="fas fa-file-alt"></i> Resume</a>
+                                </div>
+                            </li>                        
+                        </ul>
+                    </article>
+                
+        
+            <article class="profile " data-page="profile">
+                <header>
+                    <h2 class="h2 article-title">Profile</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                         <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Higher National Diploma in IT (Software Engineering)</h4>
+                            <span>Achivers International Campus -Dehiwala</span>
+                            <span>2023 - 2025</span>
+                            <p class="timeline-text">I successfully completed a comprehensive computer science programme that covered both foundational and advanced subjects.
+                                                        All modules were passed with final project documents prepared for each, showcasing my ability to apply theoretical concepts in 
+                                                        practical solutions. Covered subjects are listed below,
+                            </p>
+                            <table style="border-collapse:collapse; width:40%;">
+                                <tr style="background-color:#555; color:#f2f2f2;">
+                                    <td colspan="2"><strong>First Semester</strong></td>
+                                </tr>
+                                    <tr style="color:#f2f2f2"><td>Programming</td></tr>
+                                    <tr style="color:#f2f2f2"><td>Networking</td> </tr>
+                                    <tr style="color:#f2f2f2"><td>Professional Practice</td></tr>
+                                    <tr style="color:#f2f2f2"><td>Database Design & Development</td></tr>
+
+                                <tr style="background-color:#555; color:#f2f2f2;">
+                                    <td colspan="2"><strong>Second Semester</strong></td>
+                                </tr>
+                                    <tr style="color:#f2f2f2"><td>Security</td></tr>
+                                    <tr style="color:#f2f2f2"><td>Planning a Computing Project</td></tr>
+                                    <tr style="color:#f2f2f2"><td>Website Design & Development</td></tr>
+                                    <tr style="color:#f2f2f2"><td>Software Development Lifecycles</td></tr>
+                                <tr style="background-color:#555; color:#f2f2f2;">
+                                    <td colspan="2"><strong>Third Semester</strong></td>
+                                </tr>
+                                    <tr style="color:#f2f2f2"><td>Business Process Support</td></tr>
+                                    <tr style="color:#f2f2f2"><td>Systems Analysis & Design</td></tr>
+                                    <tr style="color:#f2f2f2"><td>Computing Research Project</td></tr>
+                                    <tr style="color:#f2f2f2"><td>Discrete Maths</td></tr>
+                                <tr style="background-color:#555; color:#f2f2f2;">
+                                    <td colspan="2"><strong>Fourth Semester</strong></td>
+                                </tr>
+                                    <tr style="color:#f2f2f2"><td>Data Structures & Algorithms</td></tr>
+                                    <tr style="color:#f2f2f2"><td>Applied Programming and Design Principles</td></tr>
+                                    <tr style="color:#f2f2f2"><td>User Experience and Interface Design</td></tr>
+                                </table>                      
+                        </li>
+
+                         <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Foundation Diploma in IT</h4>
+                            <span><strong></strong>East West City Campus - Avissawella </strong></span>
+                            <span>2020</span>
+                            <p class="timeline-text"> Earned a Foundation Diploma in IT, building core technical proficiency.
+                                 Gained hands-on skills in the Microsoft Office Suite, computer graphics, hardware maintenance,and internet technologies.Demonstrated practical application by successfully completing and 
+                                 documenting projects for each module.Covered subjects are listed below,</p>
+                                
+                        <table style="border-collapse:collapse; width:40%;">
+                            <tr style="background-color:#555; color:#f2f2f2;">
+                                <th>Subject Name</th>
+                            </tr>
+                                <tr style="color:#f2f2f2"><td>Basic Concepts of Information Technology</td></tr>
+                                <tr style="color:#f2f2f2"><td>Using the Computer and Managing Files</td></tr>
+                                <tr style="color:#f2f2f2"><td>Word Processing 2019</td></tr>
+                                <tr style="color:#f2f2f2"><td>Excel Spread Sheet 2019</td></tr>
+                                <tr style="color:#f2f2f2"><td>Power Point Presentation 2019</td></tr>
+                                <tr style="color:#f2f2f2"><td>Computer Graphic Designing</td></tr>
+                                <tr style="color:#f2f2f2"><td>Basic Computer Hardware</td></tr>
+                                <tr style="color:#f2f2f2"><td>Internet and E-Mail</td></tr>
+                                <tr style="color:#f2f2f2"><td>General Maintenance Of IT</td></tr>
+                                    <tr style="color:#f2f2f2"><td>Create PC Electronics Files</td></tr>
+                        </table>  
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">G.C.E Advanced Level Examination</h4>
+                            <span>WP/Ho/C.C Tamil Maha Vidhyalaya Puwakpitiya</span>
+                            <span>2020 - 2022</span>
+                            <p class="timeline-text"> </p>
+                                <table style="width:40%; border-collapse: collapse;">
+                                                        <tr style="background-color:#555;">
+                                                            <th>Subjects</th>
+                                                            <th>Results</th>
+                                                        </tr>
+                                                        <tr style="color:#f2f2f2">
+                                                            <td>Economics</td>
+                                                            <td>C</td>                                                    
+                                                        </tr>
+                                                        <tr style="color:#f2f2f2">
+                                                            <td>Business Studies</td>
+                                                            <td>C</td>                                                    
+                                                        </tr>
+                                                        <tr style="color:#f2f2f2">
+                                                            <td>Accounting</td>
+                                                            <td>C</td>                                                    
+                                                        </tr>
+                                                        <tr style="color:#f2f2f2">
+                                                            <td>General English</td>
+                                                            <td>B</td>                                                    
+                                                        </tr>
+                                </table>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">G.C.E Ordinary Level Examination</h4>
+                            <span>WP/Ho/C.C Tamil Maha Vidhyalaya Puwakpitiya</span>
+                            <span>2009 - 2022</span>
+                            <p class="timeline-text"> </p>
+                                 <table style="width:40%; border-collapse: collapse;" >
+                                                        <tr style="background-color:#555;">
+                                                            <th>Subjects</th>
+                                                            <th>Results</th>
+                                                        </tr>
+                                                        <tr style="color:#f2f2f2">
+                                                            <td>Mathematics</td>
+                                                            <td>A</td>                                                   
+                                                        </tr>
+                                                        <tr style="color:#f2f2f2">
+                                                            <td>Tamil Language & Lit.</td>
+                                                            <td>B</td>                                                    
+                                                        </tr>
+                                                        <tr style="color:#f2f2f2">
+                                                            <td>English Language & Lit.</td>
+                                                            <td>B</td>                                                    
+                                                        </tr>
+                                                        <tr style="color:#f2f2f2">
+                                                            <td>Sinhala Language & Lit.</td>
+                                                            <td>B</td>                                                    
+                                                        </tr>
+                                                        <tr style="color:#f2f2f2">
+                                                            <td>ICT</td>
+                                                            <td>C</td>                                                    
+                                                        </tr>
+                                </table>
+                        </li> 
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Graphic Designer & IT Professional</h4>
+                            <span>Remote Freelancer – Open to Global Clients</span>
+                            <span>2025 Jan- Present</span>
+                            <p class="timeline-text">Creative and tech-savvy freelancer providing graphicdesign, Creative Idears, and IT solutions. Skilled in designing modernvisuals, building user-friendly Designs, and delivering reliable digital services to meet client needs.</p>
+                        </li>
+                        
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">IT Executive & Management Administrator</h4>
+                            <span>David Plaza (pvt) Ltd - Panagoda</span>
+                            <span>2023 Aug - 2025 Aug</span>
+                            <p class="timeline-text">Responsible for managing and maintaining an organization’s IT systems, providing technical support, implementing security measures, and coordinating IT projects. Handles administrative tasks and ensures IT strategies align with business goals.
+                                 Combines technical expertise with management skills to support smooth operations.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Packing Assistant & Junior Graphic Designer</h4>
+                            <span>CS Studio & Communication - Avissawella</span>
+                            <span>2023 Feb - 2023 Aug</span>
+                            <p class="timeline-text">Oversees and coordinates design projects while performing typesetting, Printing Works and graphic design tasks. 
+                                Ensures that layouts, typography, and visuals meet quality standards and project requirements.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Coordinator (Typesetter & Designer)</h4>
+                            <span>2020 Jan - 2020 Mar</span>
+                            <p class="timeline-text">I create logos, color schemes and typography for a brand's identity. Also I develop graphics for websites, social media and digital ads with applications that enhance user experience.</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">My Skills</h3>
+
+                    <ul class="skills-list content-card">
+                         <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Graphic Designing</h5>
+                                <data value="95">95%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 95%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">HTML / CSS</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">JavaScript</h5>
+                                <data value="40">40%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 40%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">SQL & Databases</h5>
+                                <data value="60">60%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 60%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Git & Version Control</h5>
+                                <data value="90">90%</data>
+                            </div>
+
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="projects" data-page="projects">
+                <header>
+                    <h2 class="h2 article-title">Projects</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                        <li class="filter-item"><button data-filter-btn>Research Projects</button></li>
+                        <li class="filter-item"><button data-filter-btn>Presentations</button></li>
+                        <li class="filter-item"><button data-filter-btn>Simple Java </button></li>
+                        <li class="filter-item"><button data-filter-btn>Websites</button></li>
+                        <li class="filter-item"><button data-filter-btn>UI UX Frameworks</button></li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select " data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                            <li class="filter-item"><button data-filter-btn>Research Projects</button></li>
+                            <li class="filter-item"><button data-filter-btn>Presentations</button></li>
+                            <li class="filter-item"><button data-filter-btn>Simple Java </button></li>
+                            <li class="filter-item"><button data-filter-btn>Websites</button></li>
+                            <li class="select-item"><button data-select-item>UI UX Frameworks</button></li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="presentations">
+                            <a href="https://docs.google.com/presentation/d/1eQq9gsZ0HlGP1oqYd2iNb5THRTVhFxIP/edit?usp=drive_link&ouid=109355279048576314240&rtpof=true&sd=true">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/LsjCYfmJ/Project-1.png" alt="Optimizing Business Processes and Decision-Making with Data" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Optimizing Business Processes and Decision-Making with Data</h3>
+                                <p class="project-category">Presentations</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="research projects">
+                            <a href="https://drive.google.com/file/d/17PVrd1DpGTM3TRsN2gCa5saBgING6H-U/view?usp=drive_link">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/764MJWLc/project-02.png" alt="Challenges & Opportunities of Big Data's 6 V's in Modern Applications" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Challenges & Opportunities of Big Data's 6 V's in Modern Applications</h3>
+                                <p class="project-category">Research Projects</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="presentations">
+                            <a href="https://docs.google.com/presentation/d/1bqjuiVeOuuMU2FVo5IfD8n_3753hWJ1D/edit?usp=drive_link&ouid=109355279048576314240&rtpof=true&sd=true">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/R07pYf68/project-03.png" alt="UI/UX Case Study: Designing a Modern E-Commerce Experience for TechTrend" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">UI/UX Case Study: Designing a Modern E-Commerce Experience for TechTrend</h3>
+                                <p class="project-category">Presentations</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="research projects">
+                            <a href="https://drive.google.com/file/d/1-I3t-7vJA3ALHnVCupteAlIYDwH9kREg/view?usp=drive_link">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/90frSvbK/project-04.png" alt="Mitigating Cybersecurity Risks in Big Data for Educational Institutions" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Mitigating Cybersecurity Risks in Big Data for Educational Institutions</h3>
+                                <p class="project-category">Research Projects</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="simple java">
+                            <a href="https://drive.google.com/drive/folders/1rfkJ2q2yFWpEkRqQUbx_a2P1TSf4D22L?usp=drive_link">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/VLHf18VV/project-05.png" alt="dsm." loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Simple Java Project - Order Management System with DSA Implementation </h3>
+                                <p class="project-category">Simple Java</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="blog " data-page="blog">
+                <header>
+                    <h2 class="h2 article-title">Blog</h2>
+                </header>
+
+                <section class="blog-posts">
+                    <ul class="blog-posts-list">
+                        <li class="blog-post-item">
+                            <a href="https://drive.google.com/file/d/1lrncOvAY4VhQGstDOzrAkTdGS4HtI3nI/view?usp=drive_link">
+                                    <figure class="blog-banner-box">
+                                        <img src="https://i.postimg.cc/3rLX4jBz/Screenshot-2025-09-30-144908.png" alt="visual studio code" loading="lazy">
+                                    </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Visual Studio Code </p>
+                                        <span class="dot"></span>
+                                        <time datetime="2025-08">Aug,2025</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Visual Studio Code</h3>
+                                    <p class="blog-text">The world's most popular code editor. Powerful, free, and perfect for beginners and pros to build anything.</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="https://drive.google.com/file/d/1EtTTWkGcMWeo2g1o7QADcSbLjh8mRI9S/view?usp=drive_link">
+                                    <figure class="blog-banner-box">
+                                        <img src="https://i.postimg.cc/zXVnnL2y/Screenshot-2025-09-30-151336.png" alt="pickme" loading="lazy">
+                                    </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Pickme</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2025-08">Aug, 2025</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Pickme Application</h3>
+                                    <p class="blog-text">More than just a ride. Sri Lanka's super-app for transport, food delivery, and getting things done.</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="https://drive.google.com/file/d/1ORWmfx_WWFiiWzX9nGKG5Qr1oY9Oui4N/view?usp=drive_link">
+                                    <figure class="blog-banner-box">
+                                        <img src="https://i.postimg.cc/mDKFjj5R/Screenshot-2025-09-30-151314.png" alt="ikman.lk site" loading="lazy">
+                                    </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">ikman.lk</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2025-09">Sep, 2025</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">ikman.lk Website</h3>
+                                    <p class="blog-text">Your go-to spot for buying and selling anything in Sri Lanka. Find your next deal or sell your old stuff.</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="contact " data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31684.02249142273!2d80.18010389072968!3d6.949860155212474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3a99e4c1f47cd%3A0xee25998579adfb13!2sAvissawella!5e0!3m2!1sen!2slk!4v1757673359095!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                         width="400" height="300" loading="lazy"></iframe>
+                    </figure>
+                </section>
+
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form name="contact" method="POST" class="form" data-form netlify>
+                    <input type="hidden" name="form-name" value="contact">
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                            <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input=""></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
